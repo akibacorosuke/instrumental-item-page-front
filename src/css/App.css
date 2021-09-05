@@ -1,0 +1,125 @@
+/*** ----body----- */
+.body {
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia, serif;
+  background-color: rgb(238, 238, 233);
+}
+/* ----body----- ***/
+
+/*** ----header----- */
+header {
+  display: flex;
+  height: 50px;
+  background-color: rgba(238, 235, 235, 0.5);
+  backdrop-filter: blur(10px);
+  width: 100%;
+}
+
+.logo {
+  font-size: 30px;
+  font-family: cursive;
+  color: red;
+  margin: auto;
+}
+
+.header-genre {
+  font-size: small;
+  margin: auto;
+  display: flex;
+  padding-top: 10px;
+}
+
+.header-genre ul {
+  display: flex;
+}
+
+.header-genre li {
+  margin: 5px 10px;
+}
+
+.header-genre a {
+  color: rgb(5, 5, 5);
+  text-decoration: none;
+}
+
+/* ----header----- ***/
+
+/*** ----container----- */
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  columns: 2 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.item-page-list {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  text-align: center;
+  list-style: none;
+}
+
+.item-page-lists {
+  height: 800px;
+}
+
+.item-page-list img {
+  border: double 3px rgb(224, 203, 176);
+  background-color: rgba(255, 255, 255, 0.317);
+  box-shadow: 3px 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+ul.each-item {
+  margin: 0 50px;
+  list-style: none;
+  padding: 0;
+}
+
+.each-item {
+  width: 200px;
+  color: black;
+}
+
+.brand-name {
+  font-size: 16px;
+}
+
+.item-name {
+  font-size: 16px;
+}
+
+.price {
+  font-size: 15px;
+}
+
+.inst-pic {
+  height: 190px;
+  width: 190px;
+  object-fit: contain;
+}
+
+ul {
+  list-style: none;
+  padding: 0; /* delete space on the left side */
+}
+
+/* ----container----- ***/
+
+/*** ----footer----- */
+footer {
+  height: 20px;
+  color: black;
+  background-color: seashell;
+  text-align: center;
+  margin-top: auto;
+}
+/* ----footer----- ***/

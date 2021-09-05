@@ -1,0 +1,139 @@
+.item-detail-body {
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  font-family: Georgia, serif;
+}
+
+.item-detail-main {
+  display: flex;
+  margin: 12px auto;
+  width: 800px;
+}
+
+.item-detail-image {
+  display: flex;
+  flex-wrap: wrap;
+  width: 550px;
+  margin-left: 10px;
+}
+
+.item-detail-main-pic {
+  height: 430px;
+  width: 430px;
+  min-height: 230px;
+  object-fit: contain;
+  border: double 3px rgb(134, 39, 39);
+  box-shadow: 2px 3px 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.item-detail-ano-pic-body {
+  display: flex;
+  min-width: 400px;
+  list-style: none;
+}
+
+ul.item-detail-ano-pic-body {
+  list-style: none;
+  padding: 0;
+}
+
+.item-detail-ano-pic {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  margin-right: 10px;
+  margin-top: 5px;
+  border: double 2px rgb(245, 245, 242);
+  box-shadow: 2px 3px 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.info {
+  padding-left: 20px;
+  padding-right: 10px;
+  max-width: 350px;
+  width: 400px;
+}
+
+.info .brand-name {
+  font-style: italic;
+  font-size: 25px;
+  min-height: 50px;
+  line-height: 50px;
+}
+
+.each-item .brand-name {
+  font-style: italic;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 18px;
+  min-height: 30px;
+  line-height: 30px;
+}
+
+.info .item-name {
+  font-style: italic;
+  font-size: 22px;
+  min-height: 45px;
+  line-height: 45px;
+  margin-left: auto;
+}
+
+.each-item .item-name {
+  font-style: italic;
+  font-size: 17px;
+}
+
+.price {
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(255, 132, 0);
+  margin-top: 8px;
+  margin-bottom: 2px;
+}
+
+.item-desc {
+  text-align: left;
+  margin: 1% 5% 5% 5%;
+}
+
+.state {
+  margin-left: 3px;
+}
+
+.sold-out {
+  color: red;
+}
+
+/*** ----pagination----- */
+.paginationBttns {
+  width: 80%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.paginationBttns a {
+  padding: 6px;
+  margin: 8px;
+  border-radius: 8px;
+  border: 1px solid #2b2eff;
+  color: #2b2eff;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: aliceblue;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #2b2eff;
+}
+
+.pagenationActive a {
+  color: white;
+  background-color: #2b2eff;
+}
+/* ----pagination----- ***/
